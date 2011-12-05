@@ -1,11 +1,11 @@
-<hrml>
-<head><title>Работа с товарами</title></head>
+<html>
+<head><title>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</title></head>
 <body>
 <h1 align="center">USERLIST</h1>
 <table align="center" width="100%" border="1">
     <tr>
         <td><h2>Id</h2>
-        <td><h2>Имя</h2>
+        <td><h2>пїЅпїЅпїЅ</h2>
         <td><h2>Email</h2>
         <td><h2>Delete</h2><tr>
 <?php 
@@ -23,4 +23,4 @@ $size = count($list);?>
 </table>
 <?= anchor('/index.php/users/add', 'Add user') ?>
 </body>
-</hrml>
+</html>
